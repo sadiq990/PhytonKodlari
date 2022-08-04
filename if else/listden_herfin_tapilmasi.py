@@ -10,4 +10,9 @@ else:
     list.append(search_letter)
     print("list has been uptaded")
     print ('updated list {}'.format(list) )
-    print ('{}' .format(list))
+
+
+
+    # for printing list
+    #print ('{}' .format(list))
+    
