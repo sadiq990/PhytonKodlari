@@ -1,0 +1,11 @@
+#faktorial examples 
+# for example 5! = 5*4*3*2*1 = 120
+# now write it as a code
+
+number = 5
+conclusion = 1
+
+while number > 0:
+    conclusion = number * conclusion
+    number -= 1
+    print(conclusion)
