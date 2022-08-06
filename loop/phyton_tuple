@@ -1,0 +1,8 @@
+user = {
+    'sadiq990' : 'sadiq990' ,
+    'admin' : 'admin1234'
+
+}
+ 
+for u,p in user.items():
+    print(" login:{}  password:{}" .format(u,p))

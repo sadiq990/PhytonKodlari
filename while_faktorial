@@ -1,0 +1,16 @@
+#faktorial examples 
+# for example 5! = 5*4*3*2*1 = 120
+# now write it as a code
+
+from __future__ import print_function
+
+
+number = 6
+conclusion = 1
+
+while number > 1:
+    conclusion = number * conclusion
+    number -= 1
+
+
+print(conclusion)
