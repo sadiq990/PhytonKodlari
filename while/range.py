@@ -9,7 +9,17 @@ Sayilar = list(range(2,10))
 print(Sayilar)
 # o zaman , 2den 9 a kimi olan reqemler cixir
 
-# biz hettda 3 cu reqemide vere bilerik bu zaman
+# biz hettda 3 cu reqemide vere bilerik bu zaman 
 
-Sayilar = list(range(2,10,2))
+Sayilar = list(range(2,20,2))
 print(Sayilar)
+
+# netice: [2, 4, 6, 8] kimi cixacaq
+
+# rangei for ilede islede bilerik:
+
+for randomnumbers in Sayilar:
+    if randomnumbers> 5:
+        print(randomnumbers)  #sayilar(2,20,2) range ile verilib  #netice : 6,8,10,12,14,16,18 
+    
+
