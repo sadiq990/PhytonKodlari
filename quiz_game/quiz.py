@@ -1,4 +1,4 @@
-## this is a quiz game made by Sadig Musazade
+# this is a quiz game made by Sadig Musazade
 
 print("welcome to Quiz game version 1")
 
@@ -10,26 +10,37 @@ if intro.lower() != 'yes':
 else:
     print("We can start")
 
-answer1 = input ("What was Meta Platforms Inc formerly known as?  ")
+# questions
+score = 0
+
+answer1 = input("What was Meta Platforms Inc formerly known as?  ")
 if answer1.lower() == "facebook":
     print("correct")
+    score =+ 1
 else:
     print("not correct")
 
-answer2 = input ("Which English city is known as the Steel City?  ")
+answer2 = input("Which English city is known as the Steel City?  ")
 if answer2.lower() == "Sheffield":
     print("correct")
+    score =+ 1
 else:
     print("not correct")
 
-answer3 = input ("Which former British colony was given back to China in 1997?  ")
+answer3 = input(
+    "Which former British colony was given back to China in 1997?  ")
 if answer3.lower() == "Hong Kong":
     print("correct")
+    score =+ 1
 else:
     print("not correct")
 
-answer4 = input ("The logo for luxury car maker Porsche features which animal?  ")
+answer4 = input(
+    "The logo for luxury car maker Porsche features which animal?  ")
 if answer4.lower() == "Horse":
     print("correct")
+    score =+ 1
 else:
     print("not correct")
+
+print("you got " + str(score) + "questions correct" )
