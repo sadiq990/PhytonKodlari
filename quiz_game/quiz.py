@@ -16,31 +16,35 @@ score = 0
 answer1 = input("What was Meta Platforms Inc formerly known as?  ")
 if answer1.lower() == "facebook":
     print("correct")
-    score =+ 1
+    score = score + 1
+    print("current " + str(score))
 else:
     print("not correct")
 
 answer2 = input("Which English city is known as the Steel City?  ")
-if answer2.lower() == "Sheffield":
+if answer2.lower() == "sheffield":
     print("correct")
-    score =+ 1
+    score = score + 1
+    print("current " + str(score))
 else:
     print("not correct")
 
 answer3 = input(
     "Which former British colony was given back to China in 1997?  ")
-if answer3.lower() == "Hong Kong":
+if answer3.lower() == "hong kong":
     print("correct")
-    score =+ 1
+    score = score + 1
+    print("current " + str(score))
 else:
     print("not correct")
 
 answer4 = input(
     "The logo for luxury car maker Porsche features which animal?  ")
-if answer4.lower() == "Horse":
+if answer4.lower() == "horse":
     print("correct")
-    score =+ 1
+    score = score + 1
+    print("current " + str(score))
 else:
     print("not correct")
 
-print("you got " + str(score) + "questions correct" )
+print("you got " + str(score) + "  questions correct")
