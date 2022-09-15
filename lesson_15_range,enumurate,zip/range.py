@@ -27,4 +27,5 @@ for numberlist in range_list:
 
 for randomnumbers in range_list:
     if randomnumbers> 5:
-        print(randomnumbers)
+        print(randomnumbers) 
+#print result : 6,7,8,9,10  

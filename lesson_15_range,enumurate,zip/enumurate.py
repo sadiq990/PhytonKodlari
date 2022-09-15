@@ -1,3 +1,4 @@
+# Phyton enumurate
 ## enumurate is for ordering lists.
 #forexample:
 
@@ -34,3 +35,10 @@ for  index,letter in enumerate(letter_list):
 
 for  index,letter in enumerate(letter_list):
     print(index+1,letter) 
+
+#print result: 
+# 1 a
+# 2 b
+# 3 c
+# 4 d
+# 5 e

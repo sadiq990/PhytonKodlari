@@ -17,7 +17,7 @@ for names in zip(a,b):
 # ('Charles', 'Christy')
 # ('Mike', 'Monica')
 
-# Also we can use zip and range together but length of each list must be same
+# Also we can use zip and range together but length of each itarable must be same
 
 #for example: 
 
@@ -49,4 +49,5 @@ for index,names in enumerate(zip(a,b)):
 
 b = ("Jenny", "Christy", "Monica", "Vicky")
 print(len(b))
+# Print result: 4
 
